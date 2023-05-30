@@ -3,8 +3,8 @@
 </script>
 
 <svelte:head>
-    <title>Home</title>
-    <meta name="description" content="Under Construction"/>
+    <title>Emma's Page (epic)</title>
+    <meta name="description" content="Emma's webpage (still not finished)"/>
 </svelte:head>
 
 <div class="fullpage">
