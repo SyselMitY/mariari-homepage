@@ -9,20 +9,21 @@
 
 <div class="fullpage">
     <div class="flag">
-        <div style="z-index: 14"  class="flagsection pink"></div>
-        <div style="z-index: 13"  class="flagsection blue"></div>
-        <div style="z-index: 12"  class="flagsection pink"></div>
-        <div style="z-index: 11"  class="flagsection white"><h1>Under Construction</h1></div>
-        <div style="z-index: 10"  class="flagsection pink"></div>
-        <div style="z-index: 09"  class="flagsection blue"></div>
-        <div style="z-index: 08"  class="flagsection pink"></div>
-        <div style="z-index: 07"  class="flagsection white"><a href="https://soisi.mariari.me"><h1>Under Construction</h1></a></div>
-        <div style="z-index: 06"  class="flagsection pink"></div>
-        <div style="z-index: 05"  class="flagsection blue"></div>
-        <div style="z-index: 04"  class="flagsection pink"></div>
-        <div style="z-index: 03"  class="flagsection white"><h1>Under Construction</h1></div>
-        <div style="z-index: 02"  class="flagsection pink"></div>
-        <div style="z-index: 01"  class="flagsection blue"></div>
+        <div style="z-index: 14" class="flagsection pink"></div>
+        <div style="z-index: 13" class="flagsection blue"></div>
+        <div style="z-index: 12" class="flagsection pink"></div>
+        <div style="z-index: 11" class="flagsection white"><h1>Under Construction</h1></div>
+        <div style="z-index: 10" class="flagsection pink"></div>
+        <div style="z-index: 09" class="flagsection blue"></div>
+        <div style="z-index: 08" class="flagsection pink"></div>
+        <div style="z-index: 07" class="flagsection white"><a href="https://soisi.mariari.me"><h1>Under
+            Construction</h1></a></div>
+        <div style="z-index: 06" class="flagsection pink"></div>
+        <div style="z-index: 05" class="flagsection blue"></div>
+        <div style="z-index: 04" class="flagsection pink"></div>
+        <div style="z-index: 03" class="flagsection white"><h1>Under Construction</h1></div>
+        <div style="z-index: 02" class="flagsection pink"></div>
+        <div style="z-index: 01" class="flagsection blue"></div>
     </div>
 </div>
 
@@ -39,6 +40,14 @@
         font-family: "Courier New", monospace;
         font-size: 4rem;
         color: black;
+
+
+    }
+
+    @media only screen and (max-width: 750px) {
+        h1 {
+            font-size: 1.5rem;
+        }
     }
 
     .flagsection {
@@ -60,7 +69,7 @@
         animation-duration: 4s;
         animation-delay: 2s;
         animation-iteration-count: infinite;
-        animation-timing-function: cubic-bezier(.77,0,.33,.93);
+        animation-timing-function: cubic-bezier(.77, 0, .33, .93);
     }
 
 
