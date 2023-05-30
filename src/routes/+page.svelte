@@ -16,7 +16,7 @@
         <div style="z-index: 10"  class="flagsection pink"></div>
         <div style="z-index: 09"  class="flagsection blue"></div>
         <div style="z-index: 08"  class="flagsection pink"></div>
-        <div style="z-index: 07"  class="flagsection white"><h1>Under Construction</h1></div>
+        <div style="z-index: 07"  class="flagsection white"><a href="https://soisi.mariari.me"><h1>Under Construction</h1></a></div>
         <div style="z-index: 06"  class="flagsection pink"></div>
         <div style="z-index: 05"  class="flagsection blue"></div>
         <div style="z-index: 04"  class="flagsection pink"></div>
@@ -38,6 +38,7 @@
         z-index: 20;
         font-family: "Courier New", monospace;
         font-size: 4rem;
+        color: black;
     }
 
     .flagsection {
@@ -57,8 +58,9 @@
         flex-direction: column;
         animation-name: scrolldown;
         animation-duration: 4s;
+        animation-delay: 2s;
         animation-iteration-count: infinite;
-        animation-timing-function: cubic-bezier(.18,.89,.32,1.28);
+        animation-timing-function: cubic-bezier(.77,0,.33,.93);
     }
 
 
